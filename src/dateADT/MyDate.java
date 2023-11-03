@@ -2,15 +2,11 @@ package dateADT;
 
 public class MyDate extends DateADT {
 
-	
-
-	public MyDate(int year, int month, int day) {
-		super(year, month, day);
-	}
 
 	@Override
 	public int compareTo(DateADT otherDate) {
-		
+		// TODO Auto-generated method stub
+		return 0;
 	}
 
 	@Override
@@ -29,6 +25,12 @@ public class MyDate extends DateADT {
 	public void retreatByDays(int days) {
 		// TODO Auto-generated method stub
 
+	}
+
+	public void setDate(int y, int m, int d) {
+		setYear(y);
+		setMonth(y);
+		setDay(d);
 	}
 
 }

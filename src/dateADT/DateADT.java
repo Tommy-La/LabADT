@@ -9,20 +9,7 @@ public abstract class DateADT {
 	private int year;
 	private int month;
 	private int day;
-	
-	
-    /**
-     * Constructor to set the date to the specified year, month, and day.
-     *
-     * @param year  The year component of the date.
-     * @param month The month component of the date (1-12).
-     * @param day   The day component of the date.
-     */
-    public DateADT(int year, int month, int day) {
-    	this.year = year;
-    	this.month = month;
-    	this.day = day;
-	};
+
 
     /**
      * Compares this date with another date.
@@ -53,6 +40,30 @@ public abstract class DateADT {
      * @param days The number of days to retreat the date.
      */
     public abstract void retreatByDays(int days);
+
+	public int getYear() {
+		return year;
+	}
+
+	public void setYear(int year) {
+		this.year = year;
+	}
+
+	public int getMonth() {
+		return month;
+	}
+
+	public void setMonth(int month) {
+		this.month = month;
+	}
+
+	public int getDay() {
+		return day;
+	}
+
+	public void setDay(int day) {
+		this.day = day;
+	}
 
     
 }
